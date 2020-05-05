@@ -59,3 +59,10 @@ public class WSServerInitialzer extends ChannelInitializer<SocketChannel> {
 ```
 
 ​	通过在handler中添加自定义的处理逻辑，从而实现 对websocket的支持 和 自定义逻辑执行。
+
+
+在实现提供 WebSocket 服务的项目中，一般有如下几种解决方案：
+
+- 方案一 Spring WebSocket
+- 方案二 Tomcat WebSocket
+- 方案三 Netty WebSocket (此处实现)
